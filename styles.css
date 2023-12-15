@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    color: azure;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+.container{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: auto;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.main-header{
+    margin-bottom: 200px;
+    width: 1200px;
+    gap: 100px;
+}
+
+header nav a{ /* HEADER BUTTONS*/
+    display: inline-block;
+    padding: 30px 8px;
+}
+
+.content{ /* CONTENT CONTAINER */
+    gap: 200px;
+}
+
+.content h2{
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #000000;
+    letter-spacing: 3px;
+    padding: 20px 0px;
+}
+
+.container ul /* BUY BUTTONS CONTAINER */ {
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+}
+
+span.bold{
+    font-family: 'Bebas Neue', sans-serif;
+    display: block;
+    line-height: 30px;
+    font-size: 22px;
+}
+
+span.normal{
+    display: block;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 0px;
+    font-size: 13px;
+}
+
+.btn{
+    background-repeat: no-repeat !important;
+    text-align: left;
+    position: relative;
+    padding: 15px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #000;
+    min-height: 82px;
+}
+
+.forum {
+    background-image: url("/media/spiffo.png");
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-color: #2f3b43;
+    background-position: right bottom;
+    text-align: center;
+}
+
+.steam{
+    background: url(/media/steam.svg);
+    background-size: 40px;
+    background-color: #cd003b;
+    background-position: 15px center;
+}
+
+.center{
+    margin-left: 40px;
+}
+.gog{
+    background: url(/media/GOG.svg);
+    background-color: #471666;
+    background-size: 70px;
+    background-position: 0px center;
+}
+.logos{
+    right: 15px;
+    bottom: 0;
+    width: 50px;
+    position: absolute;
+}
+@media (width < 1100px){
+    .container{
+        gap: 10px;
+    }
+}
