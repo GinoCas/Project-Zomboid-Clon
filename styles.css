@@ -15,6 +15,11 @@ a{
 img{
     max-width: 100%;
 }
+
+body{
+    background-image: url("/media/zombie-survival-1-scaled.jpg");
+}
+
 .container{
     display: flex;
     flex-flow: row nowrap;
@@ -94,19 +99,22 @@ span.normal{
 .center{
     margin-left: 40px;
 }
+
 .gog{
     background: url(/media/GOG.svg);
     background-color: #471666;
     background-size: 70px;
     background-position: 0px center;
 }
+
 .logos{
     right: 15px;
     bottom: 0;
     width: 50px;
     position: absolute;
 }
-@media (width < 1100px){
+
+@media (width < 900px){
     .container{
         gap: 10px;
     }
