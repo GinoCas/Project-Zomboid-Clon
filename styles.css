@@ -24,14 +24,12 @@ body{
     display: flex;
     flex-flow: row nowrap;
     margin: auto;
-    justify-content: center;
-    max-width: 100%;
+    justify-content: space-between;
+    max-width: 900px;
 }
 
 .main-header{
     margin-bottom: 200px;
-    width: 1200px;
-    gap: 100px;
 }
 
 header nav a{ /* HEADER BUTTONS*/
@@ -40,7 +38,7 @@ header nav a{ /* HEADER BUTTONS*/
 }
 
 .content{ /* CONTENT CONTAINER */
-    gap: 200px;
+    margin-bottom: 100px;
 }
 
 .content h2{
