@@ -16,6 +16,10 @@ a{
 img{
     max-width: 100%;
 }
+p{
+    margin: 0;
+    margin-bottom: 1rem;
+}
 
 body{
     background-image: url("/media/zombie-survival-1-scaled.jpg");
@@ -36,7 +40,7 @@ span.normal{
     display: block;
     font-family: 'Nunito Sans', sans-serif;
     letter-spacing: 0px;
-    font-size: 18px;
+    font-size: 17px;
 }
 /********************************/
 
@@ -116,7 +120,7 @@ header nav a{ /* HEADER BUTTONS*/
     position: absolute;
 }
 
-.container.content{
+.container.articles{
     gap: 20px;
 }
 
