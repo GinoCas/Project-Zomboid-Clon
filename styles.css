@@ -20,11 +20,14 @@ p{
     margin: 0;
     margin-bottom: 1rem;
 }
-
 body{
+    margin: 0px;
+}
+.top-body{
     background-image: url("/media/zombie-survival-1-scaled.jpg");
-    background-size: 100%;
-
+    background-size: cover;
+    background-position: center 30%;
+    background-repeat: no-repeat;
 }
 /********************************/
 
