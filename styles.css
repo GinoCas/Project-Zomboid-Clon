@@ -7,6 +7,7 @@
     font-size: 20px;
     letter-spacing: 2px;
     list-style: none;
+    font-weight: 500;
 }
 
 a{
@@ -46,14 +47,24 @@ span.normal{
     letter-spacing: 0px;
     font-size: 17px;
 }
+
+span.tiny{
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif, cursive;
+    letter-spacing: 0px;
+}
+
+span.separator{
+    margin: 0px 15px;
+}
 /********************************/
 
 .container{
     display: flex;
     flex-flow: row nowrap;
-    margin: auto;
     justify-content: space-between;
     max-width: 1200px;
+    margin: auto;
 }
 
 .main-header{
@@ -135,6 +146,22 @@ header nav a{ /* HEADER BUTTONS*/
     margin: 0;
     letter-spacing: 5px;
     text-shadow: 2px 2px 4px #000000;
+}
+
+#last-news{
+    border-bottom: 1px solid #cd003b;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding-bottom: 30px;
+}
+
+.header-news{
+    margin: 10px 0;
+    line-height: 20px;
+}
+
+.text-news{
+    height: 80px;
 }
 
 @media (width < 900px){
